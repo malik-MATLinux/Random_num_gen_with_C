@@ -10,8 +10,10 @@ int main(){
 
     srand(time(NULL)); // set the base seed value based on the time
 
+    //* trying to get random number between 1 and 6
     int min = 1;
     int max = 6;
+
     int randomNum =  (rand() % max) + min;
 
     printf("%d \n\n", randomNum);
